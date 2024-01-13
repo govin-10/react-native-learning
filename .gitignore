@@ -33,6 +33,7 @@ local.properties
 .cxx/
 *.keystore
 !debug.keystore
+.vscode
 
 # node.js
 #
@@ -64,3 +65,4 @@ yarn-error.log
 
 # testing
 /coverage
+
