@@ -8,6 +8,8 @@
 import React from 'react';
 import {SafeAreaView, Text, View, Button} from 'react-native';
 import ButtonComp from './components/ButtonComp';
+import UseState from './components/UseState';
+
 const UserData: React.FC<{name: string; age: number; email: string}> = ({
   name,
   age,
@@ -27,10 +29,14 @@ function App(): React.JSX.Element {
     <SafeAreaView style={{marginTop: 40}}>
       <View>
         <ButtonComp />
+
         <Text>Hello World</Text>
-        <UserData name="GOvin" age={34} email="hellogovin@gmail.com" />
+
+        {/* <UserData name="GOvin" age={34} email="hellogovin@gmail.com" />
         <UserData name="Tim" age={22} email="timdavid@gmail.com" />
-        <Text>Hello</Text>
+        <Text>Hello</Text> */}
+
+        <UseState />
       </View>
     </SafeAreaView>
   );
