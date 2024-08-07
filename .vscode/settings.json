@@ -1,0 +1,6 @@
+{
+    "typescript.experimental.updateImportsOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.configPath": ".prettierrc.js"
+}

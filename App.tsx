@@ -7,14 +7,9 @@ import 'react-native-gesture-handler';
  */
 
 import React from 'react';
-import { Text } from 'react-native';
+import {LoginScreen} from './src/screens';
 function App(): React.JSX.Element {
-  
-  return (
-<Text>Hello World</Text>
-  );
+  return <LoginScreen />;
 }
-
-
 
 export default App;
